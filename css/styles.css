@@ -1,0 +1,182 @@
+* {
+  	margin: 0;
+  	padding: 0;
+}
+
+body {
+  	font-family: Arial, Helvetica, sans-serif;
+  	background: #333;
+  	color: black;
+  	height: 100vh;
+  	line-height: 1.6;
+  	overflow: hidden;
+}
+
+.page {
+  	width: 100%;
+  	height: 100%;
+  /* CSS Smooth Scroll */
+  	overflow-y: scroll; 
+  	scroll-behavior: smooth;
+  	scroll-snap-type: y mandatory;
+}
+
+.lead {
+  	font-size: 1.5rem;
+}
+
+.header {
+  	position: fixed;
+  	top: 0;
+  	z-index: 1;
+  	display: flex;
+  	width: 100%;
+  	height: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.navbar{
+	display: flex;
+	padding-top: 10px;
+	padding-left: 250px;
+}
+
+.navbar ul {
+  	display: flex;
+  	list-style: none;
+  	width: 100%;
+  	justify-content: center;
+}
+
+.navbar ul li {
+	float: left;
+}
+
+.navbar ul li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+ 	padding: 14px 16px;
+  	text-decoration: none;
+  	font-family: "Arial";
+  	font-size: 20px;
+}
+
+.navbar ul li a:hover {
+	border: 1px ;
+	border-radius: 50px;
+	background-color: #F6722E;
+	color: black;
+}
+
+content {
+  	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	width: 100%;
+  	height: 100vh;
+ 
+  /* Scroll Snap */
+  	scroll-snap-align: center;
+}
+
+content h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+  	color: #F6722E;
+}
+content h2 {
+	font-size: 20px;
+  	color: chartreuse;
+}
+content .img2{
+	height: 400px;
+	margin-right: 200px;
+}
+
+#aside p{
+	color:white;
+}
+
+/* Section Images */
+content#beranda {
+	background: url("../images/BG.jpg") no-repeat center center/cover;;
+}
+
+content#keahlian {
+	background: url("../images/BG.jpg") no-repeat center center/cover;;
+}
+
+content#pendidikan {
+	background: url("../images/BG.jpg") no-repeat center center/cover;;
+}
+
+content#kontak {
+	background: url("../images/BG.jpg") no-repeat center center/cover;;
+}
+#keahlian .article{
+	color: white;
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin-right: 100px;
+}
+#keahlian .article2{
+	color: white;
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+.container {
+	border-radius: 50px;
+  	width: 100%; 
+	height: 25px;
+  	background-color: #ddd; 
+}
+
+.skills {
+  	text-align: right; 
+}
+
+.ps {width: 75%; background-color:#2FA3F7; border-radius: 50px;} 
+.cd {width: 85%; background-color:#2CBC2D; border-radius: 50px;} 
+.ui {width: 80%; background-color:#F4A823; border-radius: 50px;} 
+.as {width: 65%; background-color:#4EE08F; border-radius: 50px;} 
+.xd {width: 75%; background-color:#450135; border-radius: 50px;} 
+.mo {width: 85%; background-color:#EA3C00; border-radius: 50px;} 
+.ms {width: 75%; background-color:#447592; border-radius: 50px;} 
+.ae {width: 80%; background-color:#000058; border-radius: 50px;}
+.ap {width: 80%; background-color:#170023; border-radius: 50px;}
+.tkj {width: 80%; background-color:#3266FF; border-radius: 50px;}
+
+#kontak .article h1{
+	color: white;
+}
+#pendidikan .article h1{
+	color: white;
+}
+#pendidikan .article h2 p{
+	height: 50px;
+	width: 350px;
+	float: left;
+	margin-right: 100px;
+}
+#pendidikan .article h2 p2{
+	height: 50px;
+	width: 120px;
+	color: white;
+	float: left;
+}
+#kontak .article h1{
+	text-align: center;
+}
+#kontak .article h2{
+	text-align: center;
+}
+
+
+
+
+
+
+
